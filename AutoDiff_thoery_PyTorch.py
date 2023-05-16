@@ -57,6 +57,7 @@ x_input = t.tensor([i for i in range(8)])
 # set up the b parameter and keep track of how the parameter influences the result of the model
 # PyTorch keeps track of all operations performed on b during the forward pass(forward propagation) phase
 # Therefore PyTorch calculates derivatives of the loss with respect to b in the backward pass
+# Also applying the method will cause the same effect on any other tensor that results from b.
 b = t.tensor([0.1]).requires_grad_()
 
 # Forward Propagation
