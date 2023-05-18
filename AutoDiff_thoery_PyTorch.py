@@ -1,3 +1,4 @@
+# Christopher Lama
 # resources provided by Jon Krohn, https://github.com/jonkrohn/ML-foundations/blob/master/notebooks/regression-in-pytorch.ipynb
 
 import torch as t
