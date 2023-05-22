@@ -83,7 +83,7 @@ optimizer = t.optim.SGD([m, b], lr=0.01) #lr = learning rate
 optimizer.step()
 
 # iterative version of the above
-epochs = 100 # test 10 iterations
+epochs = 100 # test 100 iterations
 
 for epoch in range(epochs):
 
