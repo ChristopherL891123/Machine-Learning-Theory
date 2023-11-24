@@ -1,2 +1,2 @@
 # Machine-Learning
-Machine Learning projects and theory explanation
+Machine Learning theory explanation
